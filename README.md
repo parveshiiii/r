@@ -1,4 +1,3 @@
----
 
 # Hierarchical Memory (HM): A Transformative Memory Architecture for XENITH-1, India’s Pioneering Large Language Model
 
