@@ -330,7 +330,7 @@ HM significantly outperforms HMT and other memory systems across multiple dimens
 | **Inference Latency**       | +20–30% | +40% | +20–30% | +40% | High | +30% | +30% | High | **–60%** |
 | **Adaptability**            | Static | Static | None | Static | Static | Static | Static | Static | **RL-driven** |
 | **Distributed Scalability** | Poor | Poor | Single-device | Poor | Poor | Poor | Poor | Unscalable | **Linear (8 TPUs)** |
-| **Stability**               | 90% | Stable | 95% | 90% | 90% | 95% | 90% | Unstable | **99%** |
+| **Stability**               | 90% | Stable | 95% | 90% | 90% | 95% | 90% | Unstable | **93%** |
 | **Long-Term Retention**     | Limited | External | None | Limited | None | Limited | Moderate | Poor | **1.55M tokens** |
 | **Ethical Features**        | None | Limited | None | None | None | None | None | None | **Privacy, fairness, transparency** |
 
@@ -683,7 +683,7 @@ To validate HM’s performance, we conducted extensive testing on 1TB mixed data
 | **Retrieval Accuracy**      | 85% | 80% | N/A | 82% | N/A | 80% | 82% | N/A | N/A | **92%** |
 | **Retrieval Latency (ms)**  | 50 | 100 | N/A | 50 | N/A | 75 | 50 | N/A | N/A | **20** |
 | **Inference Latency (ms)**  | 160 | 200 | 150 | 180 | 200 | 170 | 180 | 220 | 190 | **100** |
-| **Stability**               | 90% | 95% | 95% | 90% | 90% | 95% | 90% | 85% | 90% | **99%** |
+| **Stability**               | 90% | 95% | 95% | 90% | 90% | 95% | 90% | 85% | 90% | **92%** |
 | **Task Accuracy**           | 75–85% | 70–80% | 70–80% | 72–82% | 65–75% | 70–80% | 72–82% | 60–70% | 65–75% | **85–92%** |
 
 **Detailed Analysis**:
